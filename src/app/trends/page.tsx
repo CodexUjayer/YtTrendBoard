@@ -93,7 +93,7 @@ export default function Trends() {
             </li>
             <li className="flex items-start">
               <span className="text-blue-400 mr-2">•</span>
-              <p>Videos with "Win" in the title have the highest engagement</p>
+              <p>Videos with &ldquo;Win&rdquo; in the title have the highest engagement</p>
             </li>
             <li className="flex items-start">
               <span className="text-blue-400 mr-2">•</span>
