@@ -10,6 +10,7 @@ import {
   Tooltip,
   Legend,
   ChartData,
+  ChartOptions,
 } from 'chart.js'
 import { Line } from 'react-chartjs-2'
 
@@ -29,7 +30,7 @@ interface ChartProps {
 }
 
 export default function Chart({ data, title }: ChartProps) {
-  const options = {
+  const options: ChartOptions<'line'> = {
     responsive: true,
     maintainAspectRatio: false,
     animation: false,
